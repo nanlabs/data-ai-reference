@@ -1,9 +1,0 @@
-[build]
-
-exclude = [
-  "/README.md"
-]
-
-[[build.env]]
-  name = "BP_CPYTHON_VERSION"
-  value = "3.8.*" 

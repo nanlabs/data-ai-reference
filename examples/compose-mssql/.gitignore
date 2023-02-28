@@ -1,4 +1,0 @@
-.env
-initdb.d/**.sql
-initdb.d/**.sql.gz
-initdb.d/**.sh
