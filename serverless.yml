@@ -1,0 +1,36 @@
+service: GlueExample
+
+plugins:
+  - serverless-plugin-scripts
+  - serverless-glue
+
+useDotenv: true
+
+package:
+  individually: true
+
+custom:
+  scripts:
+    hooks:
+      "package:initialize": npm run zip:app
+
+provider:
+  name: aws
+  runtime: python3.9
+  stage: ${opt:stage, env:STAGE, 'local'}
+  region: ${opt:region, env:AWS_REGION, 'us-east-1'}
+  profile: ${opt:aws-profile, env:AWS_PROFILE, ''}
+  vpc:
+    securityGroupIds:
+      - ${env:SECURITY_GROUP_ID, ''}
+      - !Ref SecurityGroup
+    subnetIds:
+      - ${env:SUBNET_ID}
+
+# Glue Jobs configuration:
+# Check the full documentation at https://www.npmjs.com/package/serverless-glue
+Glue: ${file(./glue.yml)}
+
+resources:
+  - ${file(./resource/GlueResources.yml)}
+  - ${file(./resource/Outputs.yml)}
