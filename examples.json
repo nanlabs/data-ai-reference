@@ -1,0 +1,180 @@
+{
+  "$schema": "https://raw.githubusercontent.com/nanlabs/awesome-nan/main/examples.schema.json",
+  "list": [
+    {
+      "name": "Dagster AI Orchestration Framework - Case Study & Architecture Evaluation",
+      "description": "Comprehensive architectural evaluation of POC-Dagster data orchestration project, examining suitability for evolution into a 4-layer AI Agent platform. Includes gap analysis (18% completeness), production-ready code templates for all 5 layers (Frontend/Orchestration/Runtime/Data/Validation), and decision framework for archival vs fresh start.",
+      "url": "https://github.com/nanlabs/data-ai-reference/tree/main/examples/dagster-ai-orchestration-framework",
+      "tags": [
+        "Architecture",
+        "Case Study",
+        "AI Agents",
+        "Decision Framework"
+      ],
+      "labels": [
+        "Dagster",
+        "Data Orchestration",
+        "LangGraph",
+        "AI Agents",
+        "Architecture Evaluation",
+        "4-Layer Stack",
+        "Vercel AI SDK",
+        "Okta",
+        "Cedar",
+        "MCP",
+        "Embeddings",
+        "FastAPI",
+        "Next.js",
+        "TypeScript",
+        "Python",
+        "Prompt Evals",
+        "Decision Framework",
+        "Reference Architecture"
+      ]
+    },
+    {
+      "name": "Geospatial Python Urban Analysis with PostGIS",
+      "description": "A comprehensive geospatial data analysis project for urban environments, featuring analysis of pedestrian zones, transportation networks, census data, and geographic boundaries. Built with PostgreSQL/PostGIS, Docker, and GeoPandas for efficient spatial queries, ETL pipelines, and geospatial machine learning models.",
+      "url": "https://github.com/nanlabs/data-ai-reference/tree/main/examples/geospatial-python-urban-analysis-with-postgis",
+      "tags": [
+        "Apps and Boilerplates",
+        "Examples > Data Science and Machine Learning > Geospatial Analysis",
+        "Examples > DevOps > Containers, Orchestration and Serverless > Containers and Compositions (Docker, Docker Compose, Buildpacks and more)"
+      ],
+      "labels": [
+        "Python3",
+        "GeoPandas",
+        "PostGIS",
+        "PostgreSQL",
+        "Docker",
+        "Geospatial Analysis",
+        "Urban Planning",
+        "ETL",
+        "Machine Learning",
+        "Jupyter Notebooks",
+        "Folium",
+        "Matplotlib",
+        "Scikit-learn",
+        "Rasterio",
+        "GIS"
+      ]
+    },
+    {
+      "name": "LangGraph SLS FastAPI RAG",
+      "description": "A Proof of Concept (POC) for a Retrieval Augmented Generation (RAG) system using LangGraph, deployed with the Serverless Framework on AWS Lambda. It integrates FastAPI for API development and DynamoDB for state management.",
+      "url": "https://github.com/nanlabs/data-ai-reference/tree/main/examples/langgraph-sls-fastapi-rag",
+      "tags": [
+        "Apps and Boilerplates",
+        "Examples > Backend > FastAPI",
+        "Examples > DevOps > Infrastructure as Code > Serverless Framework, SAM and CloudFormation"
+      ],
+      "labels": [
+        "Python3",
+        "FastAPI",
+        "LangGraph",
+        "Serverless Framework",
+        "AWS Lambda",
+        "DynamoDB",
+        "Docker",
+        "RAG",
+        "Retrieval Augmented Generation"
+      ]
+    },
+    {
+      "name": "AWS CloudWatch Evidently",
+      "description": "An in-depth analysis and proof of concept demonstrating how to integrate AWS CloudWatch Evidently with a Node.js application for A/B testing and feature flag management.",
+      "url": "https://github.com/nanlabs/data-ai-reference/tree/main/examples/aws-cloudwatch-evidently/",
+      "tags": [
+        "Examples > DevOps > A/B Testing"
+      ],
+      "labels": [
+        "AWS CloudWatch",
+        "CloudWatch Evidently",
+        "A/B Testing",
+        "Feature Flags",
+        "Node.js"
+      ]
+    },
+    {
+      "name": "Airflow and Spark environment using Docker and Docker Compose",
+      "description": "Dockerfile and compose.yml to run Airflow locally with initialization scripts.",
+      "url": "https://github.com/nanlabs/data-ai-reference/tree/main/examples/compose-airflow-spark/",
+      "tags": [
+        "Examples > DevOps > Containers, Orchestration and Serverless > Containers and Compositions (Docker, Docker Compose, Buildpacks and more)"
+      ],
+      "labels": [
+        "Docker",
+        "Docker Compose",
+        "Airflow",
+        "Spark"
+      ]
+    },
+    {
+      "name": "AWS Glue using Docker and Docker Compose",
+      "description": "Dockerfile and compose.yml for AWS Glue development with AWS Glue Libs, Spark, Jupyter Notebook, AWS CLI among other tools.",
+      "url": "https://github.com/nanlabs/data-ai-reference/tree/main/examples/compose-glue/",
+      "tags": [
+        "Examples > DevOps > Containers, Orchestration and Serverless > Containers and Compositions (Docker, Docker Compose, Buildpacks and more)"
+      ],
+      "labels": [
+        "Docker",
+        "Docker Compose",
+        "AWS Glue",
+        "Spark",
+        "Jupyter Notebook",
+        "AWS CLI"
+      ]
+    },
+    {
+      "name": "AWS Glue",
+      "description": "DevContainer for AWS Glue development. Uses `docker-compose` to run VSCode attached to a container with all the necessary tools to develop AWS Glue jobs such us AWS Glue Libs, Spark, Jupyter Notebook, AWS CLI among other tools.",
+      "url": "https://github.com/nanlabs/data-ai-reference/tree/main/examples/devcontainer-glue",
+      "tags": [
+        "Examples > DevOps > Containers, Orchestration and Serverless > Development and Cloud Environments"
+      ],
+      "labels": [
+        "Docker",
+        "Docker Compose",
+        "DevContainer",
+        "VSCode DevContainer",
+        "GitHub Codespaces",
+        "AWS Glue",
+        "Spark",
+        "Jupyter Notebook",
+        "AWS CLI"
+      ]
+    },
+    {
+      "name": "AWS Glue with Python Shell and PySpark Jobs",
+      "description": "Serverless Framework example to deploy an AWS Glue job using Python Shell and PySpark.",
+      "url": "https://github.com/nanlabs/data-ai-reference/tree/main/examples/serverless-glue-deployment/",
+      "tags": [
+        "Examples > DevOps > Infrastructure as Code > Serverless Framework, SAM and CloudFormation"
+      ],
+      "labels": [
+        "Serverless Framework",
+        "AWS Glue",
+        "Python Shell",
+        "PySpark"
+      ]
+    },
+    {
+      "name": "Basic AWS Glue ETL example app",
+      "description": "A simplified yet practical example of an AWS Glue application. It uses the Serverless Framework for infrastructure deployment and supports local development with DevContainers or Docker Compose.",
+      "url": "https://github.com/nanlabs/data-ai-reference/tree/main/examples/serverless-glue-full-boilerplate/",
+      "tags": [
+        "Apps and Boilerplates"
+      ],
+      "labels": [
+        "AWS Glue",
+        "ETL",
+        "Python",
+        "PySpark",
+        "Serverless Framework",
+        "DevContainers",
+        "Docker Compose",
+        "Jupyter Notebook"
+      ]
+    }
+  ]
+}
