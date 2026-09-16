@@ -180,6 +180,19 @@
         "Docker Compose",
         "Jupyter Notebook"
       ]
+    },
+    {
+      "name": "Data Quality Framework Checklist",
+      "description": "Trustworthy data platforms checklist: contracts, orchestration reliability, validation, lineage, observability, governance, security, and scalability scoring.",
+      "url": "https://github.com/nanlabs/data-ai-reference/tree/main/examples/data-quality-framework-checklist",
+      "tags": ["Guides, Tutorials and Best Practices", "Examples > Data & AI > Data Engineering"],
+      "labels": [
+        "Data Quality",
+        "Lineage",
+        "Observability",
+        "Governance",
+        "Best Practices"
+      ]
     }
   ]
 }
