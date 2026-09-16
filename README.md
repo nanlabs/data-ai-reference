@@ -1,5 +1,6 @@
 <!--lint disable double-link awesome-heading awesome-git-repo-age awesome-toc-->
 <!-- markdownlint-disable MD013 -->
+<!-- jscpd:ignore-start -->
 
 <div align="center">
 <p>
