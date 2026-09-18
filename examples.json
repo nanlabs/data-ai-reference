@@ -193,6 +193,116 @@
         "Governance",
         "Best Practices"
       ]
+    },
+    {
+      "name": "AWS Glue Jobs (Terraform Module)",
+      "description": "Terraform module for AWS Glue jobs with IAM roles, S3 script bucket and CloudWatch log groups.",
+      "url": "https://github.com/nanlabs/terraform-aws-modules/tree/main/modules/aws-glue-jobs/",
+      "tags": [
+        "Examples > Data & AI > Data Engineering",
+        "Examples > DevOps > Infrastructure as Code > Terraform"
+      ],
+      "labels": ["AWS Glue", "ETL", "Terraform", "IAM"]
+    },
+    {
+      "name": "AWS Glue Workflows (Terraform Module)",
+      "description": "Terraform module for AWS Glue workflows and triggers orchestrating existing Glue jobs.",
+      "url": "https://github.com/nanlabs/terraform-aws-modules/tree/main/modules/aws-glue-workflow/",
+      "tags": [
+        "Examples > Data & AI > Data Engineering",
+        "Examples > DevOps > Infrastructure as Code > Terraform"
+      ],
+      "labels": ["AWS Glue", "Orchestration", "Terraform", "ETL"]
+    },
+    {
+      "name": "AWS Glue Code Registry (Terraform Module)",
+      "description": "Terraform module for a Glue Code Registry centralizing code libraries, JARs and dependencies for Glue jobs.",
+      "url": "https://github.com/nanlabs/terraform-aws-modules/tree/main/modules/aws-glue-code-registry/",
+      "tags": [
+        "Examples > Data & AI > Data Engineering",
+        "Examples > DevOps > Infrastructure as Code > Terraform"
+      ],
+      "labels": ["AWS Glue", "Terraform", "Dependencies"]
+    },
+    {
+      "name": "AWS Glue Data Lake Catalog (Terraform Module)",
+      "description": "Terraform module for AWS Glue databases backing medallion data lakes with flexible layer separation.",
+      "url": "https://github.com/nanlabs/terraform-aws-modules/tree/main/modules/aws-glue-data-lake-catalog/",
+      "tags": [
+        "Examples > Data & AI > Data Engineering",
+        "Examples > DevOps > Infrastructure as Code > Terraform"
+      ],
+      "labels": ["AWS Glue", "Data Catalog", "Terraform", "Medallion"]
+    },
+    {
+      "name": "AWS Data Lake Infrastructure (Terraform Module)",
+      "description": "Terraform module for foundational S3 data lake infrastructure with medallion zones and Apache Iceberg support.",
+      "url": "https://github.com/nanlabs/terraform-aws-modules/tree/main/modules/aws-data-lake-infrastructure/",
+      "tags": [
+        "Examples > Data & AI > Data Engineering",
+        "Examples > DevOps > Infrastructure as Code > Terraform"
+      ],
+      "labels": ["Data Lake", "S3", "Terraform", "Medallion", "Iceberg"]
+    },
+    {
+      "name": "AWS Data Lake Encryption (Terraform Module)",
+      "description": "Terraform module with KMS keys and IAM policies for data lake encryption and service isolation.",
+      "url": "https://github.com/nanlabs/terraform-aws-modules/tree/main/modules/aws-data-lake-encryption/",
+      "tags": [
+        "Examples > Data & AI > Data Engineering",
+        "Examples > DevOps > Infrastructure as Code > Terraform"
+      ],
+      "labels": ["Data Lake", "KMS", "Terraform", "Security"]
+    },
+    {
+      "name": "Amazon MSK Streaming (Terraform Module)",
+      "description": "Opinionated Terraform wrapper for Amazon MSK (Kafka) with enhanced security, DNS integration and logging.",
+      "url": "https://github.com/nanlabs/terraform-aws-modules/tree/main/modules/aws-msk/",
+      "tags": [
+        "Examples > Data & AI > Data Engineering",
+        "Examples > DevOps > Infrastructure as Code > Terraform"
+      ],
+      "labels": ["Streaming", "Kafka", "Terraform", "Security"]
+    },
+    {
+      "name": "Data Processing Pipeline (Terraform Example)",
+      "description": "Batch and stream data processing pipeline on AWS managed services, deployed with Terraform.",
+      "url": "https://github.com/nanlabs/terraform-aws-modules/tree/main/examples/data-processing-pipeline/",
+      "tags": [
+        "Examples > Data & AI > Data Engineering",
+        "Examples > DevOps > Infrastructure as Code > Terraform"
+      ],
+      "labels": ["Data Engineering", "Streaming", "Terraform", "Batch"]
+    },
+    {
+      "name": "Analytics Platform with Document Store (Terraform Example)",
+      "description": "Analytics platform combining data lake architecture with a document database for real-time analytics.",
+      "url": "https://github.com/nanlabs/terraform-aws-modules/tree/main/examples/analytics-platform-with-document-store/",
+      "tags": [
+        "Examples > Data & AI > Data Engineering",
+        "Examples > DevOps > Infrastructure as Code > Terraform"
+      ],
+      "labels": ["Analytics", "Data Lake", "Terraform", "DocumentDB"]
+    },
+    {
+      "name": "Multi-Account Data Platform (Terraform Example)",
+      "description": "Self-contained multi-account data lake example using provider aliases; path toward production multi-account architecture.",
+      "url": "https://github.com/nanlabs/terraform-aws-modules/tree/main/examples/multi-account-data-platform/",
+      "tags": [
+        "Examples > Data & AI > Data Engineering",
+        "Examples > DevOps > Infrastructure as Code > Terraform"
+      ],
+      "labels": ["Data Lake", "Multi-Account", "Terraform"]
+    },
+    {
+      "name": "Secure Multi-Environment Data Platform (Terraform Example)",
+      "description": "Secure multi-environment data platform with strict isolation, advanced security controls and compliance features.",
+      "url": "https://github.com/nanlabs/terraform-aws-modules/tree/main/examples/secure-multi-environment-data-platform/",
+      "tags": [
+        "Examples > Data & AI > Data Engineering",
+        "Examples > DevOps > Infrastructure as Code > Terraform"
+      ],
+      "labels": ["Data Platform", "Security", "Terraform", "Compliance"]
     }
   ]
 }
