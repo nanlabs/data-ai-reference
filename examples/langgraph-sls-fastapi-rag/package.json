@@ -20,5 +20,6 @@
   "homepage": "https://github.com/nanlabs/langgraph-sls-fastapi-rag#readme",
   "devDependencies": {
     "serverless": "^4.0.0"
-  }
+  },
+  "packageManager": "pnpm@10.34.1"
 }
